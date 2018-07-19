@@ -17,7 +17,7 @@ Before we begin talking about specific plugins and actions, we will discuss a co
 .. image:: images/key.png
 
 
-Each type of data (i.e., Artifacts and Visualizations) and action (i.e., methods, visualizers, and pipelines) is represented by a different color-coded node. The edges connecting each node is either solid (representing either required input or output) or dashed (representing optional input). Don't know what these terms mean? Arrgh! Read the note at the top of this page.
+Each type of data (i.e., Artifacts and Visualizations) and action (i.e., methods, visualizers, and pipelines) is represented by a different color-coded node. The lines connecting each node are either solid (representing either required input or output) or dashed (representing optional input). Don't know what these terms mean? Arrgh! Read the note at the top of this page.
 
 In the flowcharts below:
 
