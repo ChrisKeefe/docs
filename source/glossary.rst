@@ -11,6 +11,9 @@ This document is currently a work-in-progress QIIME 2 terminology glossary.
    Artifact
       Data that can be used as input to a QIIME *method* or *visualizer*, or that can be generated as output from a QIIME *method*. Artifacts typically have the extension ``.qza`` when written to file.
 
+   Input
+      In the context of QIIME 2, an *artifact* input to an *action*. Compare with Parameter, below.
+
    Method
       An *action* that takes some combination of *artifacts* and *parameters* as input, and produces one or more *artifacts* as output. These output *artifacts* could subsequently be used as input to other QIIME 2 *methods* or *visualizers*. *Methods* can produce intermediate or terminal outputs in a QIIME analysis.
 
