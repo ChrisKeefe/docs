@@ -11,6 +11,12 @@ This document is currently a work-in-progress QIIME 2 terminology glossary.
    Artifact
       Data that can be used as input to a QIIME *method* or *visualizer*, or that can be generated as output from a QIIME *method*. Artifacts typically have the extension ``.qza`` when written to file.
 
+   Feature
+      A unit of observation, frequently a sequence variant or OTU. Many other types of feature data can be imported into QIIME2 (genes, metabolites, proteins, etc.). Stronger support for these data types may come in the near future, so we use the generic term feature.
+
+   Feature Table
+      A matrix of feature abundances from a given sample. (i.e. how many times each feature appeared in a given sample)
+
    Input
       In the context of QIIME 2, an *artifact* input to an *action*. Compare with Parameter, below.
 
@@ -21,7 +27,7 @@ This document is currently a work-in-progress QIIME 2 terminology glossary.
       A primitive (i.e., non-*artifact*) input to an *action*. For example, strings, integers, and booleans are primitives. Primitives are never output from an *action*.
 
    Pipeline
-         A combination of *actions*.
+      A combination of *actions*.
 
    Plugin
       A plugin provides microbiome (i.e. domain-specific) analysis functionality that is accessible to users through a variety of interfaces built around the QIIME 2 framework. Plugins can be developed and distributed by anyone. In more technical terms, a plugin is a Python 3 package that instantiates a ``qiime2.plugin.Plugin`` object, and registers *actions*, *data formats*, and/or *semantic types* that become discoverable in the QIIME 2 framework.
