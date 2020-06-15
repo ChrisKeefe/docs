@@ -15,13 +15,13 @@ Common semantic types
 
 Unless otherwise noted the following semantic types are defined by, and importable from, the `q2-types`_ plugin. It is also possible to define semantic types in any plugin, so the available semantic types are not limited to those defined in `q2-types`_. Instructions will be added soon for how to accomplish this. In the meantime, you can refer to the `q2-dummy-types`_ repository for annotated examples.
 
-``FeatureTable[Frequency]``: A feature table (e.g., samples by OTUs) where each value indicates the frequency of an OTU in the corresponding sample expressed as raw counts.
+``FeatureTable[Frequency]``: A feature table (e.g., samples by features) where each value indicates the frequency of a feature in the corresponding sample expressed as raw counts.
 
-``FeatureTable[RelativeFrequency]``: A feature table (e.g., samples by OTUs) where each value indicates the relative abundance of an OTU in the corresponding sample such that the values for each sample will sum to 1.0.
+``FeatureTable[RelativeFrequency]``: A feature table (e.g., samples by features) where each value indicates the relative abundance of a feature in the corresponding sample such that the values for each sample will sum to 1.0.
 
-``FeatureTable[PresenceAbsence]``: a feature table (e.g., samples by OTUs) where each value indicates whether an OTU is present or absent in the corresponding sample.
+``FeatureTable[PresenceAbsence]``: a feature table (e.g., samples by features) where each value indicates whether a feature is present or absent in the corresponding sample.
 
-``FeatureTable[Composition]``: A feature table (e.g., samples by OTUs) where each value indicates the frequency of an OTU in the corresponding sample, and all frequencies are greater than zero.
+``FeatureTable[Composition]``: A feature table (e.g., samples by features) where each value indicates the frequency of a feature in the corresponding sample, and all frequencies are greater than zero.
 
 ``Phylogeny[Rooted]``: A rooted phylogenetic tree.
 
